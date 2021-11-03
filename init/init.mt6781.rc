@@ -628,9 +628,6 @@ on post-fs-data
     chmod 0777 /sys/class/ant_class/ant_state
     chown system system /sys/class/ant_class/ant_state
 
-on early-boot
-    verity_update_state
-
 on boot
     # VM Tweaks
     write /proc/sys/vm/dirty_writeback_centisecs 300
