@@ -17,5 +17,8 @@ persist.vendor.wfc.sys_wfc_support=1
 persist.vendor.radio.apm_sim_not_pwdn=1
 ro.telephony.sim.count=2
 
+# Logging
+ro.logd.kernel=false
+
 # enable FIFO scheduling for UI and Render threads by default
 sys.use_fifo_ui=1
