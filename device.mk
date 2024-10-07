@@ -90,7 +90,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.1.vendor
+    android.hardware.bluetooth@1.1.vendor:64
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -99,8 +99,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libcamera_metadata.vendor:64 \
-    libexif.vendor \
-    libpng.vendor
+    libexif.vendor:64 \
+    libpng.vendor:64
 
 # ConsumerIR
 PRODUCT_PACKAGES += \
@@ -115,10 +115,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.3-service \
     android.hardware.memtrack-service.mediatek-mali \
-    android.hardware.graphics.allocator@4.0.vendor \
+    android.hardware.graphics.allocator@4.0.vendor:64 \
 
 PRODUCT_PACKAGES += \
-    libdrm.vendor \
+    libdrm.vendor:64 \
     libutilscallstack.vendor
 
 PRODUCT_PACKAGES += \
@@ -136,8 +136,8 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor:64
 
 PRODUCT_PACKAGES += \
-    libprotobuf-cpp-lite-3.9.1-vendorcompat \
-    libprotobuf-cpp-full-3.9.1-vendorcompat
+    libprotobuf-cpp-lite-3.9.1-vendorcompat:64 \
+    libprotobuf-cpp-full-3.9.1-vendorcompat:64
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -174,8 +174,8 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-V1-ndk.vendor:64
 
 PRODUCT_PACKAGES += \
-    libcurl.vendor \
-    libexpat.vendor
+    libcurl.vendor:64 \
+    libexpat.vendor:64
 
 # Health
 PRODUCT_PACKAGES += \
@@ -367,8 +367,8 @@ PRODUCT_COPY_FILES += \
 
 # Radio
 PRODUCT_PACKAGES += \
-    android.hardware.radio.config@1.3.vendor \
-    android.hardware.radio@1.6.vendor
+    android.hardware.radio.config@1.3.vendor:64 \
+    android.hardware.radio@1.6.vendor:64
 
 PRODUCT_PACKAGES += \
     libruy.vendor:64
@@ -395,7 +395,7 @@ PRODUCT_PACKAGES += \
 
 # Secure Element
 PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.2.vendor
+    android.hardware.secure_element@1.2.vendor:64
 
 # Sensors
 PRODUCT_PACKAGES += \
