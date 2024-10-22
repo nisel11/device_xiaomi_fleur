@@ -352,3 +352,6 @@ $(call inherit-product, vendor/xiaomi/fleur/fleur-vendor.mk)
 
 # ViPER4AndroidFX
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
+
+# ItzDFPlayer MiuiCamera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
