@@ -34,13 +34,5 @@ persist.vendor.wfc.sys_wfc_support=1
 persist.vendor.radio.apm_sim_not_pwdn=1
 ro.telephony.sim.count=2
 
-# WiFi
-ro.wifi.channels=
-wifi.direct.interface=p2p0
-wifi.interface=wlan0
-wifi.tethering.interface=ap0
-ro.mediatek.wlan.p2p=1
-ro.mediatek.wlan.wsc=1
-
 # enable FIFO scheduling for UI and Render threads by default
 sys.use_fifo_ui=1
