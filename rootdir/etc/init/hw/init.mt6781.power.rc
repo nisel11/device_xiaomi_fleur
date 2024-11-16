@@ -15,6 +15,7 @@ on init
     write /dev/cpuset/top-app/cpus 0-7
     write /dev/cpuset/camera-daemon/cpus 0-7
 
+<<<<<<< HEAD
     # Setup cpu.shares to throttle background groups (bg ~ 5% sysbg ~ 5% dex2oat ~2.5%)
     write /dev/cpuctl/background/cpu.shares 1024
     write /dev/cpuctl/system-background/cpu.shares 1024
@@ -32,15 +33,29 @@ on init
     write /dev/cpuctl/rt/cpu.uclamp.min 10
     write /dev/cpuctl/rt/cpu.uclamp.latency_sensitive 0
 
+    # Background groups for best efficiency
+    write /dev/cpuctl/background/cpu.uclamp.latency_sensitive 0
+    write /dev/cpuctl/system-background/cpu.uclamp.latency_sensitive 0
+    write /dev/cpuctl/background/cpu.shares 512
+    write /dev/cpuctl/system-background/cpu.shares 512
+    write /dev/cpuctl/background/cpu.uclamp.min 0
+    write /dev/cpuctl/background/cpu.uclamp.max 30
+    write /dev/cpuctl/system-background/cpu.uclamp.min 0
+    write /dev/cpuctl/system-background/cpu.uclamp.max 30
+
     # NNAPI HAL Boosts
     write /dev/cpuctl/nnapi-hal/cpu.uclamp.latency_sensitive 0
     write /dev/cpuctl/nnapi-hal/cpu.uclamp.max max
     write /dev/cpuctl/nnapi-hal/cpu.uclamp.min 90
 
     # Latency Sensitive
+<<<<<<< HEAD
     write /dev/cpuctl/background/cpu.uclamp.latency_sensitive 0
     write /dev/cpuctl/system-background/cpu.uclamp.latency_sensitive 0
     write /dev/cpuctl/dex2oat/cpu.uclamp.latency_sensitive 0
+=======
+    write /dev/cpuctl/dex2oat/cpu.uclamp.latency_sensitive 1
+>>>>>>> 43086d7... fleur: rootdir: power: Configure background groups for best efficiency
     write /dev/cpuctl/system/cpu.uclamp.latency_sensitive 0
     write /dev/cpuctl/camera-daemon/cpu.uclamp.latency_sensitive 0
     write /dev/cpuctl/foreground/cpu.uclamp.latency_sensitive 1
