@@ -87,10 +87,6 @@ function blob_fixup {
             [ "$2" = "" ] && return 0
             sed -i 's/sea/fleur/' "$2"
             ;;
-        vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc)
-            [ "$2" = "" ] && return 0
-            sed -i '/vts/Q' "$2"
-            ;;
 	vendor/etc/init/init.batterysecret.rc)
             [ "$2" = "" ] && return 0
             sed -i '/seclabel/d' "$2"
