@@ -115,11 +115,6 @@ function blob_fixup {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
             ;;
-        vendor/lib64/libmtkcam_featurepolicy.so)
-            # evaluateCaptureConfiguration()
-            xxd -p "${2}" | sed "s/90b0034e88740b9/90b003428028052/g" | xxd -r -p > "${2}".patched
-            mv "${2}".patched "${2}"
-            ;;
         vendor/bin/hw/android.hardware.gnss-service.mediatek |\
         vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so)
             [ "$2" = "" ] && return 0
