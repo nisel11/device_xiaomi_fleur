@@ -852,6 +852,10 @@ on boot
     chown system system /sys/touchpanel/double_tap
     chmod 0660 /sys/touchpanel/double_tap
 
+on property:sys.boot_completed=1
+    # Stop statsd
+    stop statsd
+
 on property:vold.decrypt=trigger_reset_main
     setprop sys.boot_completed 0
     setprop dev.bootcomplete 0
