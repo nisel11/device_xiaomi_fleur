@@ -1111,7 +1111,7 @@ vendor/lib64/libcodec2_vpp_qt_plugin.so
 vendor/lib64/libcodec2_vpp_rs_plugin.so
 vendor/lib64/libformatter.so
 
-# MediaTek - from gold V815.0.8.0.UNQMIXM
+# MediaTek - from duchamp OS2.0.2.0.VNLCNXM
 vendor/lib/libaedv.so
 vendor/lib/libladder.so
 vendor/lib/libion_mtk.so
