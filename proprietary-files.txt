@@ -162,9 +162,9 @@ vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 
 # Camera - from fleur-user 13 SP1A.210812.016 V816.0.4.0.TKEMIXM release-keys
 vendor/bin/hw/camerahalserver
-vendor/bin/lib3a.ccu.dm;NODEPS
-vendor/bin/lib3a.ccu.pm;NODEPS
-vendor/bin/lib3a.ccu.ddr;NODEPS
+vendor/bin/lib3a.ccu.dm
+vendor/bin/lib3a.ccu.pm
+vendor/bin/lib3a.ccu.ddr
 vendor/bin/mt6660_calibration
 vendor/bin/rt5512_calibration
 vendor/etc/init/camerahalserver.rc
@@ -771,7 +771,7 @@ vendor/lib64/libmtkcam_diputils.so
 vendor/lib64/libmtkcam_fwkutils.so
 vendor/lib64/libmtkcam_metadata.so
 vendor/lib64/libmtkcam_pipeline.so
-vendor/lib64/libmtkcam_stdutils.so;NOCHECK
+vendor/lib64/libmtkcam_stdutils.so
 vendor/lib64/libmtkcam_sysutils.so
 vendor/lib64/libmtkcam_metastore.so
 vendor/lib64/libmtkcam_debugutils.so
@@ -948,7 +948,7 @@ vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib64/hw/hwcomposer.mt6781.so
 vendor/lib64/hw/vulkan.mali.so
-vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so;NOCHECK
+vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so
 vendor/lib64/mt6781/libdpframework.so:vendor/lib64/libdpframework.so
 vendor/lib64/mt6781/libmtk_drvb.so:vendor/lib64/libmtk_drvb.so
 vendor/lib64/mt6781/libnir_neon_driver.so:vendor/lib64/libnir_neon_driver.so
