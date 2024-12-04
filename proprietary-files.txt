@@ -938,12 +938,6 @@ vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
 vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
 vendor/lib/egl/egl.cfg
 vendor/lib/mt6781/libmtk_drvb.so:vendor/lib/libmtk_drvb.so
-vendor/lib64/egl/libGLES_mali.so;SYMLINK=vendor/lib64/hw/vulkan.mt6781.so
-vendor/lib64/egl/libGLES_meow.so
-vendor/lib64/egl/libMEOW_data.so
-vendor/lib64/egl/libMEOW_gift.so
-vendor/lib64/egl/libMEOW_qt.so
-vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib64/hw/hwcomposer.mt6781.so
@@ -1039,6 +1033,16 @@ vendor/lib/libfgauge_gm30.so
 
 # Gatekeeper
 vendor/lib64/hw/gatekeeper.beanpod.so
+
+# Graphics
+vendor/lib64/egl/libGLES_mali.so
+
+# Graphics - duchamp OS2.0.2.0.VNLCNXM
+vendor/lib64/egl/libGLES_meow.so
+vendor/lib64/egl/libMEOW_data.so
+vendor/lib64/egl/libMEOW_gift.so
+vendor/lib64/egl/libMEOW_qt.so
+vendor/lib64/egl/libMEOW_trace.so
 
 # GNSS
 vendor/bin/hw/android.hardware.gnss-service.mediatek
