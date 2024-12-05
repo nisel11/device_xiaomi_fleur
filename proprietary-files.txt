@@ -1025,9 +1025,6 @@ vendor/lib/egl/egl.cfg
 vendor/lib64/hw/vulkan.mali.so
 vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/arm.graphics-V1-ndk_platform.so
-vendor/lib64/libDefaultFpsActor.so
-vendor/lib64/libFrameRecord.so
-vendor/lib64/libNoFpsActor.so
 vendor/lib64/libgamehdr.so
 vendor/lib64/libgpu_aux.so
 vendor/lib64/libgpudataproducer.so
@@ -1038,6 +1035,9 @@ vendor/lib64/egl/libMEOW_data.so
 vendor/lib64/egl/libMEOW_gift.so
 vendor/lib64/egl/libMEOW_qt.so
 vendor/lib64/egl/libMEOW_trace.so
+vendor/lib64/libDefaultFpsActor.so
+vendor/lib64/libFrameRecord.so
+vendor/lib64/libNoFpsActor.so
 vendor/lib64/libged.so
 vendor/lib64/libgpud.so
 vendor/lib64/libgralloc_extra.so
