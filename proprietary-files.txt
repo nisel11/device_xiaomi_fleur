@@ -936,21 +936,15 @@ vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
 vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
-vendor/lib/egl/egl.cfg
 vendor/lib/mt6781/libmtk_drvb.so:vendor/lib/libmtk_drvb.so
 vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib64/hw/hwcomposer.mt6781.so
-vendor/lib64/hw/vulkan.mali.so
 vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so
 vendor/lib64/mt6781/libdpframework.so:vendor/lib64/libdpframework.so
 vendor/lib64/mt6781/libmtk_drvb.so:vendor/lib64/libmtk_drvb.so
 vendor/lib64/mt6781/libnir_neon_driver.so:vendor/lib64/libnir_neon_driver.so
 vendor/lib64/mt6781/libpq_prot.so:vendor/lib64/libpq_prot.so
-vendor/lib64/arm.graphics-V1-ndk_platform.so
-vendor/lib64/libDefaultFpsActor.so
-vendor/lib64/libFrameRecord.so
-vendor/lib64/libNoFpsActor.so
 vendor/lib64/libaal_key.so
 vendor/lib64/libaal_mtk.so
 vendor/lib64/libaal_cust.so
@@ -962,13 +956,6 @@ vendor/lib64/libdre.so
 vendor/lib64/libdip_drv.so
 vendor/lib64/libdip_imem.so
 vendor/lib64/libdip_postproc.so
-vendor/lib64/libgamehdr.so
-vendor/lib64/libged.so
-vendor/lib64/libgpud.so
-vendor/lib64/libgpudataproducer.so
-vendor/lib64/libgralloc_extra.so
-vendor/lib64/libgralloc_metadata.so
-vendor/lib64/libgralloctypes_mtk.so
 vendor/lib64/libhdrvideo.so
 vendor/lib64/libminiui.so
 vendor/lib64/libmmagent.so
@@ -1034,7 +1021,13 @@ vendor/lib/libfgauge_gm30.so
 vendor/lib64/hw/gatekeeper.beanpod.so
 
 # Graphics
+vendor/lib/egl/egl.cfg
+vendor/lib64/hw/vulkan.mali.so
 vendor/lib64/egl/libGLES_mali.so
+vendor/lib64/arm.graphics-V1-ndk_platform.so
+vendor/lib64/libDefaultFpsActor.so
+vendor/lib64/libFrameRecord.so
+vendor/lib64/libNoFpsActor.so
 vendor/lib64/libgamehdr.so
 vendor/lib64/libgpu_aux.so
 vendor/lib64/libgpudataproducer.so
