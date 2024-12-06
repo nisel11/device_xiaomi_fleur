@@ -744,7 +744,6 @@ vendor/lib64/libarcsoft_hdr_detection.so
 vendor/lib64/libarcsoft_low_light_hdr.so
 vendor/lib64/libarcsoft_super_night_raw.so
 vendor/lib64/libarcsoft_high_dynamic_range.so
-vendor/lib64/libarmnn_ndk.mtk.vndk.so
 vendor/lib64/libaiawb_sun.so
 vendor/lib64/libaiawb_moon.so
 vendor/lib64/libaiawb_p1ggm.so
@@ -946,7 +945,6 @@ vendor/lib64/mt6781/libnir_neon_driver.so:vendor/lib64/libnir_neon_driver.so
 vendor/lib64/mt6781/libpq_prot.so:vendor/lib64/libpq_prot.so
 vendor/lib64/libaal_mtk.so
 vendor/lib64/libaalservice.so
-vendor/lib64/libappgamepq.so
 vendor/lib64/libacdk.so
 vendor/lib64/libdip_drv.so
 vendor/lib64/libdip_imem.so
@@ -1096,7 +1094,6 @@ vendor/lib/libvcodec_utility.so
 vendor/lib/libvcodecdrv_header_stub.so
 vendor/lib/libvpu5.so
 vendor/lib/libvpud_vcodec.so
-vendor/lib/libmsbc_mtk.so
 vendor/lib64/libvpu5.so
 
 # Media - from duchamp OS2.0.2.0.VNLCNXM
@@ -1219,7 +1216,6 @@ vendor/lib/libcares_naptr.so
 vendor/lib64/libcares_naptr.so
 vendor/lib64/libcarrierconfig.so
 vendor/lib64/libccci_util.so
-vendor/lib64/libmipc.so
 vendor/lib64/libmnetlink_v104.so
 vendor/lib64/libmtk-ril.so
 vendor/lib64/libmtkmipc-ril.so
