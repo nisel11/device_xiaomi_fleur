@@ -740,7 +740,6 @@ vendor/lib64/libfeature.stereo.provider.so
 vendor/lib64/libimageio.so
 vendor/lib64/libimageio_plat_drv.so
 vendor/lib64/libimageio_plat_pipe.so
-vendor/lib64/libimagebuffer_wrapper.so
 vendor/lib64/libarcsoft_beautyshot.so
 vendor/lib64/libarcsoft_hdr_detection.so
 vendor/lib64/libarcsoft_low_light_hdr.so
@@ -1107,6 +1106,7 @@ vendor/lib64/libvpu5.so
 vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libjpeg-alpha-oal_vendor.so
 vendor/lib64/libjpeg-alpha_vendor.so
+vendor/lib64/libimagebuffer_wrapper.so
 
 # Media (C2)
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b:vendor/bin/hw/android.hardware.media.c2@1.2-mediatek
