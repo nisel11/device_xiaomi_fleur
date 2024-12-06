@@ -191,7 +191,6 @@ vendor/lib64/libimgsensorca.so
 vendor/lib64/libispcameraca.so
 vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/liblpcnr.so
-vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libmfllcore.so
 vendor/lib64/libanc_dc_base.so
@@ -877,6 +876,9 @@ vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so
 vendor/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
+
+# Camera - from duchamp OS2.0.2.0.VNLCNXM
+vendor/lib64/libSQLiteModule_VER_ALL.so
 
 # Camera (Configs) - from fleur-user 13 SP1A.210812.016 V816.0.4.0.TKEMIXM release-keys
 vendor/etc/camera/com.xiaomi.dcal.wd.1.golden
