@@ -185,14 +185,11 @@ vendor/lib64/libbwc.so
 vendor/lib64/lib_bsscore.so
 vendor/lib64/libchromanr.so
 vendor/lib64/libeffecthal.base.so
-vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libheichal.so
 vendor/lib64/libimgsensorca.so
 vendor/lib64/libispcameraca.so
 vendor/lib64/libipsec_ims_shr.so
-vendor/lib64/libjpeg-alpha_vendor.so
-vendor/lib64/libjpeg-alpha-oal_vendor.so
 vendor/lib64/liblpcnr.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/libmpbase.so
@@ -1105,6 +1102,11 @@ vendor/lib/libvpu5.so
 vendor/lib/libvpud_vcodec.so
 vendor/lib/libmsbc_mtk.so
 vendor/lib64/libvpu5.so
+
+# Media - from duchamp OS2.0.2.0.VNLCNXM
+vendor/lib64/libJpgEncPipe.so
+vendor/lib64/libjpeg-alpha-oal_vendor.so
+vendor/lib64/libjpeg-alpha_vendor.so
 
 # Media (C2)
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b:vendor/bin/hw/android.hardware.media.c2@1.2-mediatek
