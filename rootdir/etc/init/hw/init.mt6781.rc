@@ -62,6 +62,7 @@ on charger
     write /sys/power/pm_freeze_timeout 2000
     start fuelgauged
     start fuelgauged_nvram
+    start vendor.light-default
 
     # Switch to schedutil
     write /sys/devices/system/cpu/cpufreq/policy0/scaling_governor "schedutil"
