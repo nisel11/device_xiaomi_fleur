@@ -545,9 +545,6 @@
    <!-- The max scale for the wallpaper when it's zoomed in -->
     <item name="config_wallpaperMaxScale" format="float" type="dimen">1</item>
 
-    <!-- Whether to play turbulence noise after clicking the play button -->
-    <bool name="config_turbulenceNoise">false</bool>
-
     <!-- Default list of files pinned by the Pinner Service -->
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
         <item>"/apex/com.android.art/javalib/core-oj.jar"</item>
