@@ -65,6 +65,11 @@ persist.vendor.connsys.chipid=-1
 persist.vendor.connsys.patch.version=-1
 persist.vendor.connsys.dynamic.dump=0
 
+# dex2oat
+dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.dex2oat-cpu-set=2,3,4,5,6
+dalvik.vm.dex2oat-threads=5
+
 # Display
 ro.vendor.mtk_pq_support=2
 ro.vendor.mtk_pq_color_mode=1
