@@ -104,11 +104,6 @@ on post-fs
     chown radio system /proc/freqhopping/status
     chown radio system /proc/freqhopping/userdef
 
-    chown system system /proc/bootprof
-    chmod 0664 /proc/bootprof
-    chown root system /proc/mtprof/cputime
-    chown root system /proc/mtprof/reboot_pid
-
     chown system system /mnt/vendor/protect_f
     chmod 0770 /mnt/vendor/protect_f
 
