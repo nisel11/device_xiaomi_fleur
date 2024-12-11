@@ -197,7 +197,6 @@ PRODUCT_PACKAGES += \
     ApertureOverlayFleur \
     FrameworksResOverlayFleur \
     SettingsOverlayFleur \
-    SettingsProviderFleur \
     SystemUIOverlayFleur \
     TelephonyOverlayFleur \
     TetheringOverlayFleur \
