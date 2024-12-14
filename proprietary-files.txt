@@ -1106,13 +1106,11 @@ vendor/lib64/libcodec2_vpp_rs_plugin.so
 vendor/lib64/libformatter.so
 
 # MediaTek - from duchamp OS2.0.2.0.VNLCNXM
-vendor/lib/libaedv.so
 vendor/lib/libladder.so
 vendor/lib/libion_mtk.so
 vendor/lib/libion_ulit.so
 vendor/lib64/libladder.so
 vendor/lib64/libudf.so
-vendor/lib64/libaedv.so
 vendor/lib64/libion_mtk.so
 vendor/lib64/libion_ulit.so
 
