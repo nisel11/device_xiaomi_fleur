@@ -865,12 +865,10 @@ vendor/lib64/s5khm2sd_main_semco_mipi_raw_tuning.so
 vendor/lib64/ov02b1b_depth_sunny2_mipi_raw_IdxMgr.so
 vendor/lib64/ov02b1b_depth_sunny2_mipi_raw_tuning.so
 vendor/lib64/libQstAlgo.so
-vendor/lib64/libwapi.so
 vendor/lib64/libwa_depth.so
 vendor/lib64/libwa_rtdof.so
 vendor/lib64/libwa_refocus.so
 vendor/lib64/libwa_widelens_undistort.so
-vendor/lib64/libwo.so
 vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.ccap@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
@@ -1084,10 +1082,10 @@ vendor/etc/init/microtrust.bp_kmsetkey_ca.rc
 vendor/bin/vpud
 vendor/etc/init/vpud.rc
 vendor/etc/mpe.conf
-vendor/lib/AVCSecureVdecCA.so
-vendor/lib/VP9SecureVdecCA.so
-vendor/lib/HEVCSecureVdecCA.so
-vendor/lib/libAVCSecureVencCA.so
+vendor/lib64/AVCSecureVdecCA.so
+vendor/lib64/VP9SecureVdecCA.so
+vendor/lib64/HEVCSecureVdecCA.so
+vendor/lib64/libAVCSecureVencCA.so
 vendor/lib/libvcodecdrv.so
 vendor/lib/libvcodec_oal.so;DISABLE_CHECKELF
 vendor/lib/libvcodec_utility.so
@@ -1095,7 +1093,6 @@ vendor/lib/libvcodecdrv_header_stub.so
 vendor/lib/libvpu5.so
 vendor/lib/libvpud_vcodec.so
 vendor/lib/libmsbc_mtk.so
-vendor/lib64/libvpu5.so
 
 # Media (C2)
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b:vendor/bin/hw/android.hardware.media.c2@1.2-mediatek
@@ -1241,6 +1238,7 @@ vendor/lib64/libtrm.so
 vendor/lib64/libverno.so
 vendor/lib64/libviamipc-ril.so
 vendor/lib64/libvia-ril.so
+vendor/lib64/libwpfa.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 
@@ -1363,14 +1361,6 @@ vendor/etc/init/microtrust.rc
 vendor/etc/init/microtrust.init_thh.rc
 vendor/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc
 -vendor/etc/vintf/manifest/manifest_thh.xml
-vendor/lib/libdecrypt.so
-vendor/lib/libTEECommon.so
-vendor/lib/libgz_gp_client.so
-vendor/lib/libgz_uree.so
-vendor/lib/libimsg_log.so
-vendor/lib/libteeclientjni.so
-vendor/lib/libteei_daemon_vfs.so
-vendor/lib/libteeclientjni@1.1.so
 vendor/lib64/libTEECommon.so
 vendor/lib64/libgz_gp_client.so
 vendor/lib64/libgz_uree.so
@@ -1446,7 +1436,6 @@ vendor/etc/init/wlan_assistant.rc
 -vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so;FIX_SONAME
 vendor/lib64/libforkexecwrap.so
 vendor/lib64/libifcutils_mtk.so
-vendor/lib64/libwpfa.so
 vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
 
 # WLAN
