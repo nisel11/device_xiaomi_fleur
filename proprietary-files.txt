@@ -2,36 +2,38 @@
 
 # Audio
 vendor/firmware/aw87xxx_acf.bin
-vendor/lib/hw/audio.primary.mt6781.so
-vendor/lib/hw/audio.r_submix.mt6781.so
-vendor/lib/hw/sound_trigger.primary.default.so
-vendor/lib/libMtkSpeechEnh.so
-vendor/lib/lib_iir.so
-vendor/lib/lib_speech_enh.so
-vendor/lib/libaudio_param_parser-vnd.so
-vendor/lib/libaudiocomponentenginec.so
-vendor/lib/libaudiocompensationfilterc.so
-vendor/lib/libaudiocomponentengine_vendor.so
-vendor/lib/libaudiocompensationfilter_vendor.so
-vendor/lib/libaudiocustparam_vendor.so
-vendor/lib/libaudiodcrflt_vendor.so
-vendor/lib/libaudiofmtconv.so
-vendor/lib/libaudioloudc.so
-vendor/lib/libaudioprimarydevicehalifclient.so
-vendor/lib/libaudiotoolkit_vendor.so
-vendor/lib/libaurisysdemo.so
-vendor/lib/libbessound_hd_mtk_vendor.so
-vendor/lib/libblisrc32_vendor.so
-vendor/lib/libbwc.so
-vendor/lib/libcvsd_mtk.so
-vendor/lib/libfsmsmartpaparse.so
-vendor/lib/libmsbc_mtk.so
-vendor/lib/libmtklimiter_vendor.so
-vendor/lib/libmtkshifter_vendor.so
-vendor/lib/libnxp_extamp_intf.so
-vendor/lib/librt_extamp_intf.so
-vendor/lib/libspeech_enh_lib.so;FIX_SONAME
-vendor/lib/vendor.mediatek.hardware.audio@7.1.so
+vendor/lib64/hw/audio.primary.mt6781.so
+vendor/lib64/hw/audio.r_submix.mt6781.so
+vendor/lib64/hw/sound_trigger.primary.default.so
+vendor/lib64/libMtkSpeechEnh.so
+vendor/lib64/lib_iir.so
+vendor/lib64/lib_speech_enh.so
+vendor/lib64/libaudio_param_parser-vnd.so
+vendor/lib64/libaudiocomponentenginec.so
+vendor/lib64/libaudiocompensationfilterc.so
+vendor/lib64/libaudiocomponentengine_vendor.so
+vendor/lib64/libaudiocompensationfilter_vendor.so
+vendor/lib64/libaudiocustparam_vendor.so
+vendor/lib64/libaudiodcrflt_vendor.so
+vendor/lib64/libaudiofmtconv.so
+vendor/lib64/libaudioloudc.so
+vendor/lib64/libaudioprimarydevicehalifclient.so
+vendor/lib64/libaudiotoolkit_vendor.so
+vendor/lib64/libaurisysdemo.so
+vendor/lib64/libbessound_hd_mtk_vendor.so
+vendor/lib64/libblisrc32_vendor.so
+vendor/lib64/libbwc.so
+vendor/lib64/libcvsd_mtk.so
+vendor/lib64/libfsmsmartpaparse.so
+vendor/lib64/libmsbc_mtk.so
+vendor/lib64/libmtklimiter_vendor.so
+vendor/lib64/libmtkshifter_vendor.so
+vendor/lib64/libnxp_extamp_intf.so
+vendor/lib64/librt_extamp_intf.so
+vendor/lib64/libspeech_enh_lib.so;FIX_SONAME
+vendor/lib64/vendor.mediatek.hardware.audio@7.1.so
+vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
+vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 
 # Audio (Configs)
 vendor/etc/audio_param/AudioParamOptions.xml
@@ -151,15 +153,9 @@ vendor/etc/init/init.batterysecret.rc
 # Bluetooth
 vendor/lib64/libbluetooth_mtk.so
 vendor/lib64/libbt-vendor.so
-
-# Bluetooth
 vendor/firmware/soc2_2_ram_bt_2_1_hdr.bin
 vendor/firmware/soc2_2_ram_bt_2a_1_hdr.bin
 vendor/firmware/BT_FW.cfg
-
-# Bluetooth (A2DP)
-vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
-vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 
 # Camera - from fleur-user 13 SP1A.210812.016 V816.0.4.0.TKEMIXM release-keys
 vendor/bin/hw/camerahalserver
@@ -1086,6 +1082,7 @@ vendor/lib64/AVCSecureVdecCA.so
 vendor/lib64/VP9SecureVdecCA.so
 vendor/lib64/HEVCSecureVdecCA.so
 vendor/lib64/libAVCSecureVencCA.so
+vendor/lib/libbwc.so
 vendor/lib/libvcodecdrv.so
 vendor/lib/libvcodec_oal.so;DISABLE_CHECKELF
 vendor/lib/libvcodec_utility.so

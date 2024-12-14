@@ -50,18 +50,19 @@ PRODUCT_PACKAGES += \
     otapreopt_script
 
 # Audio
-PRODUCT_PACKAGES += \
-    android.hardware.audio.service \
-    android.hardware.audio@7.0-impl \
-    android.hardware.audio.effect@7.0-impl:32 \
-    android.hardware.bluetooth.audio-impl:32 \
-    android.hardware.soundtrigger@2.3-impl:32
+$(call soong_config_set,android_hardware_audio,run_64bit,true)
 
 PRODUCT_PACKAGES += \
-    audio.bluetooth.default:32 \
-    audio.r_submix.default:32 \
-    audio.usb.default:32 \
-    audio_policy.stub:32
+    android.hardware.audio.service \
+    android.hardware.audio@7.0-impl:64 \
+    android.hardware.audio.effect@7.0-impl:64 \
+    android.hardware.bluetooth.audio-impl:64 \
+    android.hardware.soundtrigger@2.3-impl:64
+
+PRODUCT_PACKAGES += \
+    audio.bluetooth.default:64 \
+    audio.r_submix.default:64 \
+    audio.usb.default:64
 
 PRODUCT_PACKAGES += \
     MtkInCallService
