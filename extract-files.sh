@@ -79,6 +79,10 @@ function blob_fixup {
             [ "$2" = "" ] && return 0
             grep -q "libui_shim.so" "${2}" || "${PATCHELF}" --add-needed "libui_shim.so" "${2}"
             ;;
+        vendor/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc)
+            [ "$2" = "" ] && return 0
+            sed -i 's/mediatek/mediatek-64b/' "$2"
+            ;;
 	vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc)
             [ "$2" = "" ] && return 0
             sed -i 's/start/enable/' "$2"
@@ -121,7 +125,7 @@ function blob_fixup {
             [ "$2" = "" ] && return 0
             "$PATCHELF" --replace-needed "android.hardware.gnss-V1-ndk_platform.so" "android.hardware.gnss-V1-ndk.so" "$2"
             ;;
-        vendor/bin/hw/android.hardware.media.c2@1.2-mediatek)
+        vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --add-needed "libstagefright_foundation-v33.so" "${2}"
             "${PATCHELF}" --replace-needed "libavservices_minijail_vendor.so" "libavservices_minijail.so" "${2}"
