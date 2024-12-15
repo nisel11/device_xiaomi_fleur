@@ -1165,8 +1165,6 @@ vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
 vendor/bin/nvram_daemon
 vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc
 vendor/etc/init/nvram_daemon.rc
-vendor/lib/libcustom_nvram.so
-vendor/lib/libfile_op.so
 vendor/lib/libnvram.so
 vendor/lib/libnvram_sec.so
 vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
@@ -1193,7 +1191,6 @@ vendor/etc/init/ipsec_mon.rc
 vendor/etc/init/mtkrild.rc
 vendor/lib/libmtkcutils.so
 vendor/lib/libmtkproperty.so
-vendor/lib/libmtkares.so
 vendor/lib/libmtkrillog.so
 vendor/lib/libverno.so
 vendor/lib/libcares_naptr.so
