@@ -1,88 +1,95 @@
 //
-// Copyright (C) 2022 ArrowOS
+// Copyright (C) 2024 The LineageOS Project
 //
 // SPDX-License-Identifier: Apache-2.0
 //
 
 prebuilt_etc {
     name: "init.zram.rc",
-    src: "etc/init/hw/init.zram.rc",
+    src: "init.zram.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.mt6781.power.rc",
-    src: "etc/init/hw/init.mt6781.power.rc",
+    src: "init.mt6781.power.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.connectivity.rc",
-    src: "etc/init/hw/init.connectivity.rc",
+    src: "init.connectivity.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.modem.rc",
-    src: "etc/init/hw/init.modem.rc",
+    src: "init.modem.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.mt6781.rc",
-    src: "etc/init/hw/init.mt6781.rc",
+    src: "init.mt6781.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.mt6781.usb.rc",
-    src: "etc/init/hw/init.mt6781.usb.rc",
+    src: "init.mt6781.usb.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
+    name: "init.recovery.mt6781.rc",
+    src: "init.recovery.mt6781.rc",
+    sub_dir: "init",
+    recovery: true,
+}
+
+prebuilt_etc {
     name: "init.project.rc",
-    src: "etc/init/hw/init.project.rc",
+    src: "init.project.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.sensor_1_0.rc",
-    src: "etc/init/hw/init.sensor_1_0.rc",
+    src: "init.sensor_1_0.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.stnfc.rc",
-    src: "etc/init/hw/init.stnfc.rc",
+    src: "init.stnfc.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "fstab.mt6781",
-    src: "etc/fstab.mt6781",
+    src: "fstab.mt6781",
     vendor: true,
     ramdisk_available: true,
 }
 
 prebuilt_etc {
     name: "fstab.zram",
-    src: "etc/fstab.zram",
+    src: "fstab.zram",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "ueventd.mt6781.rc",
     filename: "ueventd.rc",
-    src: "etc/ueventd.rc",
+    src: "ueventd.rc",
     vendor: true,
 }

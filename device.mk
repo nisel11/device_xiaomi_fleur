@@ -153,6 +153,21 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/permissions/privapp-permissions-com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.mediatek.ims.xml
 
+# Init
+PRODUCT_PACKAGES += \
+    init.connectivity.rc \
+    init.modem.rc \
+    init.mt6781.rc \
+    init.mt6781.power.rc \
+    init.mt6781.usb.rc \
+    init.project.rc \
+    init.sensor_1_0.rc \
+    init.stnfc.rc \
+    init.zram.rc \
+    fstab.mt6781 \
+    fstab.zram \
+    ueventd.mt6781.rc
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.hardware_keystore.km41.xml
@@ -277,21 +292,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.recovery.mt6781.rc \
     fstab.mt6781.ramdisk
-
-# Root Dir
-PRODUCT_PACKAGES += \
-    init.connectivity.rc \
-    init.modem.rc \
-    init.mt6781.rc \
-    init.mt6781.power.rc \
-    init.mt6781.usb.rc \
-    init.project.rc \
-    init.sensor_1_0.rc \
-    init.stnfc.rc \
-    init.zram.rc \
-    fstab.mt6781 \
-    fstab.zram \
-    ueventd.mt6781.rc
 
 # Sensors
 PRODUCT_PACKAGES += \
