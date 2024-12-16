@@ -195,39 +195,6 @@
       "ResetOnInit": true
     },
     {
-      "Name": "UclampMin",
-      "Path": "/dev/cpuctl/system/cpu.uclamp.min",
-      "Values": [
-        "25",
-        "10",
-        "0"
-      ],
-      "DefaultIndex": 0,
-      "ResetOnInit": true
-    },
-    {
-      "Name": "FGUclampMin",
-      "Path": "/dev/cpuctl/foreground/cpu.uclamp.min",
-      "Values": [
-        "25",
-        "10",
-        "0"
-      ],
-      "DefaultIndex": 0,
-      "ResetOnInit": true
-    },
-    {
-      "Name": "TAUclampMin",
-      "Path": "/dev/cpuctl/top-app/cpu.uclamp.min",
-      "Values": [
-        "25",
-        "10",
-        "0"
-      ],
-      "DefaultIndex": 0,
-      "ResetOnInit": true
-    },
-    {
       "Name": "DoubleTapToWake",
       "Path": "/sys/touchpanel/double_tap",
       "Values": [
@@ -310,12 +277,6 @@
       "Value": "1"
     },
     {
-      "PowerHint": "INTERACTION",
-      "Node": "FGUclampMin",
-      "Duration": 0,
-      "Value": "10"
-    },
-    {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMinFreq",
       "Duration": 2500,
@@ -326,24 +287,6 @@
       "Node": "CPULittleClusterMinFreq",
       "Duration": 2500,
       "Value": "1866000"
-    },
-    {
-      "PowerHint": "LAUNCH",
-      "Node": "TAUclampMin",
-      "Duration": 2500,
-      "Value": "10"
-    },
-    {
-      "PowerHint": "LAUNCH",
-      "Node": "FGUclampMin",
-      "Duration": 2500,
-      "Value": "10"
-    },
-    {
-      "PowerHint": "LAUNCH",
-      "Node": "UclampMin",
-      "Duration": 2500,
-      "Value": "25"
     },
     {
       "PowerHint": "LAUNCH",
