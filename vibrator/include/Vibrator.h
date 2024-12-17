@@ -36,8 +36,6 @@ namespace android {
 namespace hardware {
 namespace vibrator {
 
-int strength_effect;
-
 class LedVibratorDevice {
 public:
     LedVibratorDevice();
