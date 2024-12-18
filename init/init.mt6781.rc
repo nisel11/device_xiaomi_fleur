@@ -632,7 +632,12 @@ on early-boot
     verity_update_state
 
 on boot
+    # VM Tweaks
     write /proc/sys/vm/dirty_writeback_centisecs 300
+    write /proc/sys/vm/dirty_background_ratio 7
+    write /proc/sys/vm/dirty_ratio 15
+    write /proc/sys/vm/dirty_expire_centisecs 2000
+
     chmod 0660 /sys/power/autosleep
 
     chmod 0664 /sys/class/leds/lcd-backlight/brightness
