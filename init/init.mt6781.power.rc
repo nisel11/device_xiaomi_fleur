@@ -49,7 +49,7 @@ on init
     write /dev/cpuctl/foreground/cpu.shares 20480
 
     # NNAPI HAL group
-    write /dev/cpuctl/nnapi-hal/cpu.uclamp.latency_sensitive 0
+    write /dev/cpuctl/nnapi-hal/cpu.uclamp.latency_sensitive 1
     write /dev/cpuctl/nnapi-hal/cpu.uclamp.max max
     write /dev/cpuctl/nnapi-hal/cpu.uclamp.min 90
     write /dev/cpuctl/nnapi-hal/cpu.shares 20480
