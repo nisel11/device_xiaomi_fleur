@@ -33,7 +33,7 @@ on init
     write /dev/cpuctl/system-background/cpu.uclamp.max 30
 
     # Camera daemon group
-    write /dev/cpuctl/camera-daemon/cpu.uclamp.latency_sensitive 0
+    write /dev/cpuctl/camera-daemon/cpu.uclamp.latency_sensitive 1
     write /dev/cpuctl/camera-daemon/cpu.uclamp.max max
     write /dev/cpuctl/camera-daemon/cpu.uclamp.min 70
     write /dev/cpuctl/camera-daemon/cpu.shares 20480
