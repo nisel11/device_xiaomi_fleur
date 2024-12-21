@@ -95,6 +95,16 @@
       "ResetOnInit": true
     },
     {
+      "Name": "CPU7Online",
+      "Path": "/sys/devices/system/cpu/cpufreq/policy6/scaling_min_freq",
+      "Values": [
+        "1",
+        "0"
+      ],
+      "DefaultIndex": 1,
+      "ResetOnInit": true
+    },
+    {
       "Name": "CPULittleClusterDownRateLimitUs",
       "Path": "/sys/devices/system/cpu/cpufreq/policy0/schedutil/down_rate_limit_us",
       "Values": [
@@ -449,6 +459,12 @@
       "Node": "CPUBigClusterDownRateLimitUs",
       "Duration": 0,
       "Value": "500"
+    },
+    {
+      "PowerHint": "DISPLAY_INACTIVE",
+      "Node": "CPU7Online",
+      "Duration": 0,
+      "Value": "0"
     }
   ]
 }
