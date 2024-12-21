@@ -239,10 +239,6 @@ ro.lmk.stall_limit_critical=40
 external_storage.casefold.enabled=1
 external_storage.projid.enabled=1
 external_storage.sdcardfs.enabled=0
-ro.vendor.mtk_dmc_support=1
-ro.vendor.mtk_emmc_support=1
-ro.vendor.mtk_f2fs_enable=1
-ro.vendor.mtk_ufs_support=1
 
 # Surface Flinger
 debug.sf.treat_170m_as_sRGB=1
