@@ -234,11 +234,6 @@ ro.vendor.mtk_data_config=1
 ro.lmk.kill_heaviest_task=true
 ro.lmk.kill_timeout_ms=50
 ro.lmk.stall_limit_critical=40
-ro.lmk.psi_complete_stall_ms=150
-ro.lmk.swap_free_low_percentage=20
-ro.lmk.thrashing_limit=30
-ro.lmk.thrashing_limit_decay=50
-ro.lmk.swap_util_max=90
 
 # Storage
 external_storage.casefold.enabled=1
