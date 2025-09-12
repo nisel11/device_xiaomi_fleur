@@ -1016,7 +1016,7 @@ vendor/lib64/libgralloc_extra.so
 vendor/lib64/libgralloc_metadata.so
 vendor/lib64/libgralloctypes_mtk.so
 
-# ION from gale-user 15 AP3A.240905.015.A2 OS2.0.2.0.VGPMIXM release-keys
+# ION
 vendor/lib/libion_mtk.so
 vendor/lib/libion_ulit.so
 vendor/lib64/libion_mtk.so
