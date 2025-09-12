@@ -518,7 +518,7 @@
       "Value": "9999999"
     },
     {
-      "PowerHint": "DISPLAY_IDLE",
+      "PowerHint": "DEVICE_IDLE",
       "Type": "DoHint",
       "Value": "DISPLAY_INACTIVE"
     },
