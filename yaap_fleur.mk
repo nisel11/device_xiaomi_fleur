@@ -14,6 +14,8 @@ $(call inherit-product, device/xiaomi/fleur/device.mk)
 # Inherit some common YAAP stuff.
 $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
+TARGET_BUILD_GAPPS := true
+
 PRODUCT_NAME := yaap_fleur
 PRODUCT_DEVICE := fleur
 PRODUCT_MANUFACTURER := Xiaomi
